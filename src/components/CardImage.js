@@ -1,7 +1,9 @@
+import "../styles/CardImage.css";
+
 const CardImage = ({ title, image }) => {
     return (
         <img 
-            className=""
+            className="card-img"
             src={image} 
             alt={`${title.toLowerCase()}-icon`}
         />

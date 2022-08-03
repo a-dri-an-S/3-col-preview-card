@@ -11,9 +11,10 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--very-light-gray);
   font-family: 'Lexend Deca', sans-serif;
-  /* font-family: 'Big Shoulders Display', cursive; */
   font-size: 15px;
+  color: var(--very-light-gray);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -1,8 +1,10 @@
+import "../styles/CardInfo.css";
+
 const CardInfo = ({ title, info }) => {
     return (
-        <div className="">
-            <h1 className="">{title}</h1>
-            <p className="">{info}</p>
+        <div className="card-section-info">
+            <h1 className="card-section-title">{title}</h1>
+            <p className="card-section-text">{info}</p>
         </div>
     );
 }

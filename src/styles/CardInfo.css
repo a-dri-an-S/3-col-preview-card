@@ -1,0 +1,12 @@
+.card-section-info {
+    height: 300px;
+}
+.card-section-title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 48px;
+}
+.card-section-text {
+    color: var(--transparent-white);
+    font-size: 16px;
+    line-height: 32px;
+}

@@ -1,0 +1,29 @@
+.card-section-btn {
+    width: 156px;
+    height: 48px;
+    background-color: var(--very-light-gray);
+    border: 3px solid var(--very-light-gray);
+    border-radius: 24px;
+    font: inherit;
+}
+.card-section-btn:hover {
+    color: var(--very-light-gray)
+}
+.sedans-btn {
+    color: var(--bright-orange);
+}
+.suvs-btn {
+    color: var(--dark-cyan);
+}
+.luxury-btn {
+    color: var(--very-dark-cyan);
+}
+.sedans-btn:hover {
+    background-color: var(--bright-orange);
+}
+.suvs-btn:hover {
+    background-color: var(--dark-cyan);
+}
+.luxury-btn:hover {
+    background-color: var(--very-dark-cyan);
+}

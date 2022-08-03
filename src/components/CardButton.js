@@ -1,6 +1,8 @@
-const CardButton = () => {
+import "../styles/CardButton.css";
+
+const CardButton = ({ title }) => {
     return (
-        <button className="">
+        <button className={`card-section-btn ${title.toLowerCase()}-btn`}>
             Learn More
         </button>
     );

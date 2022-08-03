@@ -1,0 +1,26 @@
+.card-section {
+    width:330px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+.sedans-section {
+    background-color: var(--bright-orange);
+    border-radius: 12px 0px 0px 12px;
+}
+.suvs-section {
+    background-color: var(--dark-cyan);
+}
+.luxury-section {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0px 12px 12px 0px;
+}
+.card-info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
