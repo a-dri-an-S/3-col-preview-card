@@ -1,6 +1,10 @@
-const CardImage = () => {
+const CardImage = ({ title, image }) => {
     return (
-        <img src={{}} alt=""/>
+        <img 
+            className=""
+            src={image} 
+            alt={`${title.toLowerCase()}-icon`}
+        />
     );
 }
 

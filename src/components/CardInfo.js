@@ -1,7 +1,8 @@
-const CardInfo = () => {
+const CardInfo = ({ title, info }) => {
     return (
-        <div>
-
+        <div className="">
+            <h1 className="">{title}</h1>
+            <p className="">{info}</p>
         </div>
     );
 }

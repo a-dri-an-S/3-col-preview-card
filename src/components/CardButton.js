@@ -1,7 +1,7 @@
 const CardButton = () => {
     return (
-        <button>
-
+        <button className="">
+            Learn More
         </button>
     );
 }
